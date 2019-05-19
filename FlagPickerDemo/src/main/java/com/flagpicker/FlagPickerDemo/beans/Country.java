@@ -21,6 +21,7 @@ public class Country {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
+	@JsonIgnore
 	private Integer id;
 	
 	
